@@ -1,6 +1,6 @@
 # ParaBank
 
-!ParaBank Logo](https://iconape.com/wp-content/png_logo_vector/parabank.png)
+!ParaBank Logo]( https://iconape.com/wp-content/png_logo_vector/parabank.png )
 
 ## Table of Contents
 
