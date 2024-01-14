@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listener.MyListener"/>
+    </listeners>
+
+    <test name="Register New User">
+        <classes>
+            <class name="testcase.TC01_Register">
+                <methods>
+                    <include name="registerWithValidData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login with manual register data">
+        <classes>
+            <class name="testcase.TC02_LoginWithRegisteredUser">
+                <methods>
+                    <include name="loginWithRegisterUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="open new account">
+        <classes>
+            <class name="testcase.TC03_OpenAccount">
+                <methods>
+                    <include name="openAccount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Transfer Fund">
+        <classes>
+            <class name="testcase.TC04_FundTransfer">
+                <methods>
+                    <include name="fundTransfer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
